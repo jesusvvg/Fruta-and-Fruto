@@ -1,0 +1,28 @@
+.receta{
+    background-color: #fdfdfd;
+    display: flex;    /*alinear uno al lado del otro*/
+    flex-direction: column;  /*tipo columnas, imagen, y contenido una abjo de la otra*/
+    margin-top: 3rem;
+    margin-bottom: 4rem;     
+}
+
+@media screen and (min-width: 0) {
+    .receta{
+        margin-right: 1rem; 
+        width: 100%; /*ancho*/ 
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .receta{
+        margin-right: 2.5rem; 
+        width: 50%; /*ancho*/ 
+    }
+}
+
+@media screen and (min-width: 922px) {
+    .receta{
+        margin-right: 6.5rem; 
+        width: 25%; /*ancho*/ 
+    }
+}

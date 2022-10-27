@@ -1,0 +1,34 @@
+.persona__imagen{
+    height: 300px;
+    width: 300px;
+    
+}
+
+.persona__imagen--roberta{
+    background: url(../../../img/personas/roberta.jpg) no-repeat center / cover;
+}
+
+.persona__imagen{
+   border-radius: 100%;   
+}
+
+.persona__imagen--marcela{
+    background: url(../../../img/personas/marcela.jpg) no-repeat center / cover;
+}
+
+.persona__imagen{
+    /*background-size:cover; /* se quita de aqui y se coloca directamente en la imagen*/
+    border-radius: 100%;
+    /*background-repeat: no-repeat;  se quita de aqui y se coloca directamente en la imagen*/
+}
+
+.persona__imagen--andrea{
+    background: url(../../../img/personas/andrea.jpg) no-repeat center / cover;
+}
+
+.persona__imagen{
+    border-radius: 100%;
+}
+
+
+
